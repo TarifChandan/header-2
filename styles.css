@@ -16,8 +16,9 @@
 
 .side-nav {
     background-color: snow;
-
+    height: 80px;
     display: grid;
+    justify-content: center;
     align-content: center;
 }
 
@@ -25,14 +26,19 @@
     list-style: none;
 
     display: grid;
-    grid-row-gap: 15px;
-    justify-content: center;
+    grid-template-columns: repeat(5, max-content);
+    grid-column-gap: 25px;
 }
 
 .side-nav__link {
     text-decoration: none;
-    font-size: 26px;
+    font-size: 15px;
     font-family: 'Lucida Sans', sans-serif;
     color: #202020;
     text-transform: capitalize;
+    transition: all .5s;
+}
+
+.side-nav__link:hover {
+    color: #1ac266;
 }
