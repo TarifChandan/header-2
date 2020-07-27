@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center 75%;
+    color: #fff;
+    height: 100vh;
+}
+
+.side-nav {
+    height: 100%;
+    width: 25vw;
+    background-color: snow;
+
+    display: grid;
+    align-content: center;
+}
+
+.side-nav__list {
+    list-style: none;
+
+    display: grid;
+    grid-row-gap: 15px;
+    justify-content: center;
+}
+
+.side-nav__link {
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Lucida Sans', sans-serif;
+    color: #202020;
+    text-transform: capitalize;
+}
