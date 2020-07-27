@@ -15,8 +15,6 @@
 }
 
 .side-nav {
-    height: 100%;
-    width: 25vw;
     background-color: snow;
 
     display: grid;
